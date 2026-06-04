@@ -15,6 +15,7 @@ import { Shimmer } from "@/components/ai-elements/shimmer";
 import { Plus, Trash2, Sparkles, Wallet, TrendingUp, TrendingDown } from "lucide-react";
 import { toast } from "sonner";
 import { AppNav, AppNavList } from "@/components/app-nav";
+import { VoiceInputButton } from "@/components/voice-input-button";
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet";
 import { Menu, MessagesSquare } from "lucide-react";
 
