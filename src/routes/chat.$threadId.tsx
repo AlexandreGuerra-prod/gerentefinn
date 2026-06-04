@@ -327,7 +327,11 @@ function ChatWindow({
               placeholder="Conte para o Finn... (ex: gastei 30 no Uber)"
               autoFocus
             />
-            <PromptInputFooter className="justify-end">
+            <PromptInputFooter className="justify-end gap-2">
+              <VoiceInputButton
+                disabled={loading}
+                onTranscript={(text) => setInput(text)}
+              />
               <PromptInputSubmit status={status} disabled={!input.trim() || loading} />
             </PromptInputFooter>
           </PromptInput>
